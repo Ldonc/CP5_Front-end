@@ -41,3 +41,8 @@ Criar uma Landing Page para apresentar os diferenciais do aplicativo, atrair nov
 - **Font Awesome** → Ícones  
 - **Google Fonts** → Tipografia personalizada  
 - **JavaScript** → Animações e interações  
+
+## Participantes do Projeto
+- **Lucas Oliveira de Mendonça Almeida** → RM562613
+- **Victor Antônio da Silva Teixeira** → RM562573
+- **Rafael Felix Souza** → RM565855
