@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melodia</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <header class="bg-gradient-to-r from-indigo-600 to-pink-500 text-white text-center py-20">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Melodia: Sua Música, Sua Forma</h1>
+    <p class="text-lg md:text-xl mb-6">Descubra novos artistas, crie playlists e aproveite a melhor qualidade de som.</p>
+    <a href="#download" class="bg-white text-indigo-600 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-100 transition">Ouvir Agora</a>
+  </header>
+
+  <!-- Apresentação -->
+  <section class="py-16 px-6 md:px-20 text-center">
+    <h2 class="text-3xl font-bold mb-8">Por que escolher o Melodia?</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div>
+        <i class="fas fa-music text-indigo-600 text-4xl mb-4"></i>
+        <h3 class="font-semibold text-lg">Qualidade Superior</h3>
+        <p class="text-gray-600">Ouça músicas com clareza e som de alta definição.</p>
+      </div>
+      <div>
+        <i class="fas fa-list text-indigo-600 text-4xl mb-4"></i>
+        <h3 class="font-semibold text-lg">Playlists Personalizadas</h3>
+        <p class="text-gray-600">Monte playlists exclusivas do seu jeito.</p>
+      </div>
+      <div>
+        <i class="fas fa-user-astronaut text-indigo-600 text-4xl mb-4"></i>
+        <h3 class="font-semibold text-lg">Descubra Novos Artistas</h3>
+        <p class="text-gray-600">Explore talentos e tendências musicais.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Funcionalidades --> 
+  <section class="bg-gray-100 py-16 px-6 md:px-20">
+    <h2 class="text-3xl font-bold text-center mb-8">Funcionalidades</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="font-semibold text-xl mb-2"><i class="fas fa-headphones text-indigo-600"></i> Interface Intuitiva</h3>
+        <p class="text-gray-600">Navegue facilmente pelo app com uma interface amigável.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="font-semibold text-xl mb-2"><i class="fas fa-star text-indigo-600"></i> Recomendações Inteligentes</h3>
+        <p class="text-gray-600">Receba sugestões personalizadas baseadas no seu gosto.</p>
+      </div>
+    </div>
+  </section>
+
+   <!-- Depoimentos -->
+  <section class="py-16 px-6 md:px-20 text-center">
+    <h2 class="text-3xl font-bold mb-8">O que nossos usuários dizem</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-xl shadow">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="w-16 h-16 mx-auto rounded-full mb-4" alt="Usuário">
+        <p class="italic text-gray-600">"O Melodia mudou minha forma de ouvir música. Simplesmente perfeito!"</p>
+        <h4 class="mt-3 font-semibold">Ana Paula</h4>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-16 h-16 mx-auto rounded-full mb-4" alt="Usuário">
+        <p class="italic text-gray-600">"Adoro descobrir novos artistas! O app é incrível e fácil de usar."</p>
+        <h4 class="mt-3 font-semibold">Carlos Silva</h4>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <img src="https://randomuser.me/api/portraits/women/12.jpg" class="w-16 h-16 mx-auto rounded-full mb-4" alt="Usuário">
+        <p class="italic text-gray-600">"Minha playlist personalizada ficou do jeito que sempre sonhei!"</p>
+        <h4 class="mt-3 font-semibold">Juliana Costa</h4>
+      </div>
+    </div>
+  </section>
+
+   <!-- Formulário -->
+  <section id="contato" class="bg-indigo-600 py-16 px-6 md:px-20 text-white text-center">
+    <h2 class="text-3xl font-bold mb-8">Fale Conosco</h2>
+    <form class="max-w-xl mx-auto space-y-4">
+      <input type="text" placeholder="Seu Nome" class="w-full p-3 rounded text-gray-800" required>
+      <input type="email" placeholder="Seu E-mail" class="w-full p-3 rounded text-gray-800" required>
+      <textarea placeholder="Sua Mensagem" rows="4" class="w-full p-3 rounded text-gray-800" required></textarea>
+      <button type="submit" class="bg-white text-indigo-600 px-6 py-3 rounded font-semibold hover:bg-gray-100 transition">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-900 text-gray-300 text-center py-6">
+    <p> 2025 Melodia - Todos os direitos reservados</p>
+    <div class="flex justify-center space-x-6 mt-3">
+      <a href="#" class="hover:text-white"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="hover:text-white"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="hover:text-white"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p class="mt-3 text-sm">Política de Privacidade | Termos de Uso</p>
+  </footer>
+
+</body>
+</html>
